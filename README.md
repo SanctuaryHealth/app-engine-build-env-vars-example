@@ -1,4 +1,4 @@
-Example of AppEngine not making enviroment variables set in the `app.yaml` available at build time. Next JS applications require enviroment variables at the `build` time for `staticly` generated content.
+Example of AppEngine not making enviroment variables set in the `app.yaml` available at build time. Next JS applications require enviroment variables at the `build` time for `staticly` generated content. See [https://example-dot-livitay.ew.r.appspot.com/static](https://example-dot-livitay.ew.r.appspot.com/static)
 
 Possible solutions:
 - Dont use `app.yaml` to set enviroment variables and instead include `.env` file when deploying so enviroment variables in the given file are present at build time
